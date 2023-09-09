@@ -22,7 +22,7 @@ function array(arr) {
     for (const item of arr) {
         console.log(item);
     }
-return arr
+    return arr
 }
 array([11,22,33,`asd`,true])
 
@@ -73,17 +73,17 @@ const users = [
     {id: 11, name: 'max', age: 31}
 ];
 
-    function user(arr) {
-        for (const user of arr) {
-            document.write(`
+function user(arr) {
+    for (const user of arr) {
+        document.write(`
             <div>
                 <p>id: ${user.id}</p>
                 <p>name: ${user.name}</p>
                 <p>age: ${user.age}</p>             
             </div>
             `);
-        }
     }
+}
 user(users);
 // - створити функцію яка повертає найменьше число з масиву
 function ret(arr) {
